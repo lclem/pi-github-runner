@@ -11,4 +11,4 @@ docker run -d --restart always --name $CONTAINER \
   -e GITHUB_REPO="$2" \
   -e GITHUB_ACCESS_TOKEN="$GITHUB_ACCESS_TOKEN" \
   -e RUNNER_NAME="$RUNNER_NAME" \
-  wbond/pi-github-runner:latest > /dev/null
+  lclem/pi-github-runner:latest > /dev/null
